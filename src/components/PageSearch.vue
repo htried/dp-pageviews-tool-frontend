@@ -1,9 +1,6 @@
 <template>
   <div>
     <ProjectSelect @project-selected="onProjectSelected" />
-    <CountrySelect @country-selected="updateCountry" />
-    <StartDate @start-date="updateStartDate" />
-    <EndDate @end-date="updateEndDate" />
     <p>Page ID: {{ selection }}</p>
     <cdx-lookup
       v-model:selected="selection"
@@ -14,7 +11,11 @@
     >
       <template #no-results> No results found. </template>
     </cdx-lookup>
+    <StartDate @start-date="updateStartDate" />
+    <EndDate @end-date="updateEndDate" />
+    <CountrySelect @country-selected="updateCountry" />
   </div>
+  <br />
   <cdx-button @click="graphData">Graph data!</cdx-button>
 </template>
 
@@ -76,7 +77,6 @@ export default defineComponent({
         q: searchTerm,
         limit: '10'
       })
-      // TODO make this selectable
       return fetch(`https://${selectedProject.value}/w/rest.php/v1/search/title?${params.toString()}`).then(
         (response) => response.json()
       )
