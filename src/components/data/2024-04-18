@@ -1,0 +1,502 @@
+[
+    {
+        "country": "Switzerland",
+        "country_code": "CH",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 403,
+        "date": 1713398400000
+    },
+    {
+        "country": "Ghana",
+        "country_code": "GH",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 181,
+        "date": 1713398400000
+    },
+    {
+        "country": "Brazil",
+        "country_code": "BR",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 440,
+        "date": 1713398400000
+    },
+    {
+        "country": "Canada",
+        "country_code": "CA",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 6087,
+        "date": 1713398400000
+    },
+    {
+        "country": "Spain",
+        "country_code": "ES",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 503,
+        "date": 1713398400000
+    },
+    {
+        "country": "Singapore",
+        "country_code": "SG",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 1332,
+        "date": 1713398400000
+    },
+    {
+        "country": "Poland",
+        "country_code": "PL",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 501,
+        "date": 1713398400000
+    },
+    {
+        "country": "Sweden",
+        "country_code": "SE",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 575,
+        "date": 1713398400000
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 106,
+        "date": 1713398400000
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 105,
+        "date": 1713398400000
+    },
+    {
+        "country": "Puerto Rico",
+        "country_code": "PR",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 127,
+        "date": 1713398400000
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 276,
+        "date": 1713398400000
+    },
+    {
+        "country": "New Zealand",
+        "country_code": "NZ",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 873,
+        "date": 1713398400000
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 695,
+        "date": 1713398400000
+    },
+    {
+        "country": "Malaysia",
+        "country_code": "MY",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 957,
+        "date": 1713398400000
+    },
+    {
+        "country": "Serbia",
+        "country_code": "RS",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 261,
+        "date": 1713398400000
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 147,
+        "date": 1713398400000
+    },
+    {
+        "country": "Portugal",
+        "country_code": "PT",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 243,
+        "date": 1713398400000
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 34161,
+        "date": 1713398400000
+    },
+    {
+        "country": "Italy",
+        "country_code": "IT",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 610,
+        "date": 1713398400000
+    },
+    {
+        "country": "Nigeria",
+        "country_code": "NG",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 578,
+        "date": 1713398400000
+    },
+    {
+        "country": "Israel",
+        "country_code": "IL",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 327,
+        "date": 1713398400000
+    },
+    {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 7866,
+        "date": 1713398400000
+    },
+    {
+        "country": "Romania",
+        "country_code": "RO",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 431,
+        "date": 1713398400000
+    },
+    {
+        "country": "Greece",
+        "country_code": "GR",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 547,
+        "date": 1713398400000
+    },
+    {
+        "country": "Japan",
+        "country_code": "JP",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 662,
+        "date": 1713398400000
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 3359,
+        "date": 1713398400000
+    },
+    {
+        "country": "South Korea",
+        "country_code": "KR",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 116,
+        "date": 1713398400000
+    },
+    {
+        "country": "Bulgaria",
+        "country_code": "BG",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 233,
+        "date": 1713398400000
+    },
+    {
+        "country": "Germany",
+        "country_code": "DE",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 1438,
+        "date": 1713398400000
+    },
+    {
+        "country": "Russia",
+        "country_code": "RU",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 1843,
+        "date": 1713398400000
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 2594,
+        "date": 1713398400000
+    },
+    {
+        "country": "Ireland",
+        "country_code": "IE",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 733,
+        "date": 1713398400000
+    },
+    {
+        "country": "Mexico",
+        "country_code": "MX",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 448,
+        "date": 1713398400000
+    },
+    {
+        "country": "Hong Kong",
+        "country_code": "HK",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 487,
+        "date": 1713398400000
+    },
+    {
+        "country": "Croatia",
+        "country_code": "HR",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 187,
+        "date": 1713398400000
+    },
+    {
+        "country": "Australia",
+        "country_code": "AU",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 3610,
+        "date": 1713398400000
+    },
+    {
+        "country": "Argentina",
+        "country_code": "AR",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 137,
+        "date": 1713398400000
+    },
+    {
+        "country": "Austria",
+        "country_code": "AT",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 275,
+        "date": 1713398400000
+    },
+    {
+        "country": "Nepal",
+        "country_code": "NP",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 134,
+        "date": 1713398400000
+    },
+    {
+        "country": "Mongolia",
+        "country_code": "MN",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 92,
+        "date": 1713398400000
+    },
+    {
+        "country": "Sri Lanka",
+        "country_code": "LK",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 133,
+        "date": 1713398400000
+    },
+    {
+        "country": "Lithuania",
+        "country_code": "LT",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 138,
+        "date": 1713398400000
+    },
+    {
+        "country": "Hungary",
+        "country_code": "HU",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 332,
+        "date": 1713398400000
+    },
+    {
+        "country": "Finland",
+        "country_code": "FI",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 522,
+        "date": 1713398400000
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 1193,
+        "date": 1713398400000
+    },
+    {
+        "country": "Thailand",
+        "country_code": "TH",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 456,
+        "date": 1713398400000
+    },
+    {
+        "country": "Belgium",
+        "country_code": "BE",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 365,
+        "date": 1713398400000
+    },
+    {
+        "country": "Taiwan",
+        "country_code": "TW",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 199,
+        "date": 1713398400000
+    },
+    {
+        "country": "France",
+        "country_code": "FR",
+        "project": "en.wikipedia",
+        "page_id": 58064471,
+        "page_title": "Shōgun_(2024_TV_series)",
+        "QID": "Q56276181",
+        "noisy_views": 729,
+        "date": 1713398400000
+    }
+]
