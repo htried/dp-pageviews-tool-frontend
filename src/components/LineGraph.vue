@@ -8,16 +8,6 @@
   
 <script>
 import * as d3 from 'd3';
-import apr_15_data from './data/2024-04-15.json'
-import apr_16_data from './data/2024-04-16.json'
-import apr_17_data from './data/2024-04-17.json'
-import apr_18_data from './data/2024-04-18.json'
-import apr_19_data from './data/2024-04-19.json'
-import apr_20_data from './data/2024-04-20.json'
-import apr_21_data from './data/2024-04-21.json'
-import apr_22_data from './data/2024-04-22.json'
-import apr_23_data from './data/2024-04-23.json'
-import apr_24_data from './data/2024-04-24.json'
 
 export default {
   name: 'LineGraph',
@@ -30,8 +20,7 @@ export default {
   },
   data() {
     return {
-      // data: []
-      data: [apr_15_data, apr_16_data, apr_17_data, apr_18_data, apr_19_data, apr_20_data, apr_21_data, apr_22_data, apr_23_data, apr_24_data].flat(),
+      data: [],
       limitToTop10: false,
       limitToSelected: false
     };
@@ -52,21 +41,18 @@ export default {
       hander: 'renderLineGraph',
       immediate: true
     },
-    project: {
-      hander: 'renderLineGraph',
-      immediate: true
-    },
     limitToTop10: 'renderLineGraph', // Watch for changes in checkbox state
-    limitToSelected: 'renderLineGraph' // Watch for changes in checkbox state
+    limitToSelected: 'renderLineGraph', // Watch for changes in checkbox state
+    pageID: 'fetchData'
   },
   methods: {
     async fetchData() {
       try {
         // Calculate the number of days between start and end dates
-        // const start = new Date(this.startDate);
-        // const end = new Date(this.endDate);
-        const start = new Date("2024-04-15");
-        const end = new Date("2024-04-24");
+        const start = new Date(this.startDate);
+        const end = new Date(this.endDate);
+        // const start = new Date("2024-04-15");
+        // const end = new Date("2024-04-24");
         const dateRange = [];
         let currentDate = new Date(start);
 
@@ -76,34 +62,23 @@ export default {
         }
 
         // Make multiple API requests, one for each day
-        // const promises = dateRange.map(async date => {
-          // remote try
-          // const params = new URLSearchParams({
-          //   country: this.country,
-          //   project: this.project,
-          //   pageID: this.pageID,
-          //   date: date.toISOString().split('T')[0] // Format date as 'YYYY-MM-DD'
-          // })
-          // const response = await fetch(`YOUR_API_ENDPOINT/${params.toString()}`);
-          // return response.data;
-
-          // local try
-          // console.log(`data/${date.toISOString().split('T')[0]}`)
-          // const response = await fetch(`/Users/haltriedman/code/dp-pageviews-tool-frontend/src/components/data/${date.toISOString().split('T')[0]}`);
-          // const dayResponse = await response.json()
-          // console.log(dayResponse)
-          // return dayResponse
-        // });
+        const promises = dateRange.map(async date => {
+          const response = await fetch(`https://dp-pageviews.wmcloud.org/api/v1/${this.project.slice(0, -4)}/${this.pageID}/${date.toISOString().split('T')[0]}`);
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return response.json(); // Parse response as JSON
+        });
 
         // Wait for all requests to complete
-        // const responseData = await Promise.all(promises);
+        const responseData = await Promise.all(promises);
+        // console.log(responseData);
 
         // Concatenate all data from responses
-        // this.data = responseData.reduce((acc, data) => acc.concat(data), []);
-
-        // local try
-        // Combine data from all JSON files
-        // this.data = responseData.flat(); // Flatten array of arrays
+        let combined = []
+        responseData.forEach(d => combined = combined.concat(d.results));
+        console.log("combined", combined);
+        this.data = combined;
 
         // Render line graph
         this.renderLineGraph();
@@ -112,6 +87,7 @@ export default {
       }
     },
     renderLineGraph() {
+      console.log(this.data)
       let filteredData = this.data;
       if (this.limitToSelected) {
         filteredData = filteredData.filter(d => this.country.includes(d.country_code));
@@ -165,8 +141,8 @@ export default {
       filteredData = filteredData.sort((a, b) => b.date - a.date);
 
       const margin = { top: 20, right: 20, bottom: 50, left: 80 };
-      const width = 1000 - margin.left - margin.right;
-      const height = 600 - margin.top - margin.bottom;
+      const width = 800 - margin.left - margin.right;
+      const height = 500 - margin.top - margin.bottom;
 
       // Remove any existing SVG elements
       d3.select('#lineGraph svg').remove();
