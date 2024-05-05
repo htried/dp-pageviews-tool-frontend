@@ -65,8 +65,8 @@
 		<div id="tool_footer-in" class="boxwidth--1-1 padded--left padded--right">
 			<p>Experimental tool developed by <span class="tool-author"><a href="https://haltriedman.com" target="_blank">Hal Triedman</a></span> as part of the <a href="https://security.wikimedia.org/" target="_blank">WMF Privacy Engineering</a> team and <a href="https://meta.wikimedia.org/wiki/User:MGerlach_(WMF)" target="_blank">Martin Gerlach</a> as part of the <a href="https://research.wikimedia.org" target="_blank">Research team</a>.</p>
 			<ul>
-				<li><a href="https://github.com/htried/dp-pageviews-tool-frontend/" target="_blank">View frontend source</a>, <a href="https://gitlab.wikimedia.org/htriedman/dp-pageviews-tool-backend" target="_blank">View backend source</a></li>
-				<li><a href="https://gitlab.wikimedia.org/htriedman/wikidata-sparql-generation-ui/-/blob/main/LICENSE" target="_blank">License</a></li>
+				<li><a href="https://github.com/htried/dp-pageviews-tool-frontend/" target="_blank">View frontend source</a><br /><a href="https://gitlab.wikimedia.org/htriedman/dp-pageviews-tool-backend" target="_blank">View backend source</a></li>
+				<li><a href="https://github.com/htried/dp-pageviews-tool-frontend/blob/main/LICENSE" target="_blank">Frontend license</a><br /><a href="https://gitlab.wikimedia.org/htriedman/dp-pageviews-tool-backend/-/blob/main/LICENSE" target="_blank">Backend license</a></li>
 			</ul>
 		</div>
 	</footer>
